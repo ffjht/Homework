@@ -48,9 +48,18 @@ static void TrimRemove(std::string& _Text)
 	}
 }
 
+static void ToUpper(std::string& _Text)
+{
+	for (int i = 0; i < _Text.size(); i++)
+	{
+		if(_Text[i] >= 'a' && _Text[i] <= 'z')
+			_Text[i] = toupper(_Text[i]);
+	}
+}
+
 int main()
 {
-	std::string temp = "abc abababcDEF";
-	TrimRemove(temp);
+	std::string temp = "°¡³ª´Ùabc";
+	ToUpper(temp);
 	std::cout << temp;
 }
