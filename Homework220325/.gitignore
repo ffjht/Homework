@@ -432,4 +432,4 @@ DerivedDataCache/*
 /UnrealClient/Intermediate
 /UnrealClient/Saved
 
-!/ProjectCode/Thirdparty/bin/*
+!/ProjectCode/Thirdparty/Mysql/bin/*
