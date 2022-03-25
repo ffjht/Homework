@@ -425,9 +425,11 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-/UnrealClinet/Intermediate
-/UnrealClinet/Binaries/Win64
-/UnrealClinet/Saved
-/UnrealClient/Binaries/Win64
-/UnrealClient/Intermediate
-/UnrealClient/Saved
+/Homework220325/UnrealClinet/Intermediate
+/Homework220325/UnrealClinet/Binaries/Win64
+/Homework220325/UnrealClinet/Saved
+/Homework220325/UnrealClient/Binaries/Win64
+/Homework220325/UnrealClient/Intermediate
+/Homework220325/UnrealClient/Saved
+
+!/Homework220325/ProjectCode/Thirdparty/bin/*
