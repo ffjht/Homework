@@ -431,3 +431,5 @@ DerivedDataCache/*
 /UnrealClient/Binaries/Win64
 /UnrealClient/Intermediate
 /UnrealClient/Saved
+
+!/ProjectCode/Thirdparty/bin/*
