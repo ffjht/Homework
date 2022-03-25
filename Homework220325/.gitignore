@@ -425,7 +425,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-<<<<<<< HEAD
 /UnrealClinet/Intermediate
 /UnrealClinet/Binaries/Win64
 /UnrealClinet/Saved
@@ -433,13 +432,4 @@ DerivedDataCache/*
 /UnrealClient/Intermediate
 /UnrealClient/Saved
 
-!/ProjectCode/Thirdparty/Mysql/bin/*
-=======
-/Homework220325/UnrealClinet/Intermediate
-/Homework220325/UnrealClinet/Binaries/Win64
-/Homework220325/UnrealClinet/Saved
-/Homework220325/UnrealClient/Binaries/Win64
-/Homework220325/UnrealClient/Intermediate
-/Homework220325/UnrealClient/Saved
-
-!/Homework220325/ProjectCode/Thirdparty/Mysql/bin/*
+/ProjectCode/Thirdparty/Mysql/bin/*
