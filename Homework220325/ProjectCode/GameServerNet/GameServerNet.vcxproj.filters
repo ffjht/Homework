@@ -121,10 +121,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Thirdparty\Mysql\bin\libcrypto-1_1-x64.dll">
-      <Filter>dll</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="..\Thirdparty\Mysql\bin\libmysql.dll" />
     <CopyFileToFolders Include="..\Thirdparty\Mysql\bin\libssl-1_1-x64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Thirdparty\Mysql\bin\libcrypto-1_1-x64.dll">
+      <Filter>dll</Filter>
+    </None>
   </ItemGroup>
 </Project>
